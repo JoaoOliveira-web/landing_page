@@ -1,0 +1,124 @@
+:root{
+    --backgound-color:#1F2937;
+    --secondary-color:#E5E7EB;
+    --accent-color:#3882F6;
+    --font-family:"Roboto";
+    --title-font-size:48px;
+    --information-font-size:36px;
+    --Bolder-font-weight:900;
+    --Thin-font-weight:300;
+    --text-font-size:18px;
+    --logo-font-size:24px;
+    --logo-font-color:#F9FAF8;
+    --quote-font-color:#1F2937;
+
+}
+/* --------------- Resets -----------------------*/
+*{
+    margin:0;
+    padding:0;
+
+}
+
+ul{
+    list-style: none;
+}
+/*-----------------------------------------------*/
+
+.body{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+
+.container{
+    flex: 1;
+    font-family: "Roboto";
+}
+
+.one{
+    background-color: var(--backgound-color);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16.5%;
+    
+}
+
+.logo{
+    color: var(--logo-font-color);
+    font-size: var(--logo-font-size);
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 33%;
+    box-sizing: border-box;
+    height: 250px;
+    margin: 70px 20px;
+}
+
+.hero_img{
+   width: 100%;
+   height: 100%;
+}
+
+.title,.hero_text,.sign_up{
+    margin: 10px 0px;
+}
+
+.title{
+    font-size: var(--title-font-size);
+    color: var(--logo-font-color);
+    font-weight: var(--Bolder-font-weight);
+}
+
+.hero_text{
+    font-size: var(--text-font-size);
+    color: var(--secondary-color);
+}
+
+.sign_up{
+    background-color: var(--accent-color);
+    color: var(--logo-font-color);
+    font-size: var(--text-font-size);
+    font-weight: var(--Bolder-font-weight);
+    padding:  8px 30px;
+    border-radius:5px;
+}
+
+.two{
+    background-color: red;
+}
+
+.three{
+    background-color: green;
+}
+
+.four{
+    background-color: blue;
+}
+
+footer{
+    background-color: var(--backgound-color);
+}
