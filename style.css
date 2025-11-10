@@ -28,7 +28,7 @@ ul{
 .body{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -46,7 +46,6 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 20px 16.5%;
-    
 }
 
 .logo{
@@ -71,7 +70,7 @@ ul{
     justify-content: center;
 }
 
-.card{
+.subcontainer{
     width: 33%;
     box-sizing: border-box;
     height: 250px;
@@ -108,7 +107,38 @@ ul{
 }
 
 .two{
-    background-color: red;
+    background-color: var(--logo-font-color);
+}
+
+.information{
+    color: var(--backgound-color);
+    font-size: var(--information-font-size);
+    font-weight: var(--Bolder-font-weight);
+    text-align: center;
+    padding: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding-bottom: 100px;
+}
+
+.card{
+    text-align: center;
+    width: 170px;
+}
+
+.card>p{
+    font-size: var(--text-font-size);
+    color: var(--information-font-color);
+}
+
+.card_img{
+    border: 1px solid var(--accent-color);
+    width: 100%;
+    border-radius: 20px;
 }
 
 .three{
