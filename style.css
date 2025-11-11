@@ -5,8 +5,8 @@
     --font-family:"Roboto";
     --title-font-size:48px;
     --information-font-size:36px;
-    --Bolder-font-weight:900;
-    --Thin-font-weight:300;
+    --bolder-font-weight:900;
+    --thin-font-weight:300;
     --text-font-size:18px;
     --logo-font-size:24px;
     --logo-font-color:#F9FAF8;
@@ -45,7 +45,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 16.5%;
+    padding: 20px 16%;
 }
 
 .logo{
@@ -62,6 +62,7 @@ ul{
 .link{
     text-decoration: none;
     color: var(--secondary-color);
+    font-size: var(--text-font-size);
 }
 
 .hero{
@@ -74,7 +75,7 @@ ul{
     width: 33%;
     box-sizing: border-box;
     height: 250px;
-    margin: 70px 20px;
+    margin: 100px 20px 120px 20px;
 }
 
 .hero_img{
@@ -89,7 +90,7 @@ ul{
 .title{
     font-size: var(--title-font-size);
     color: var(--logo-font-color);
-    font-weight: var(--Bolder-font-weight);
+    font-weight: var(--bolder-font-weight);
 }
 
 .hero_text{
@@ -97,11 +98,11 @@ ul{
     color: var(--secondary-color);
 }
 
-.sign_up{
+.hero_btn{
     background-color: var(--accent-color);
     color: var(--logo-font-color);
     font-size: var(--text-font-size);
-    font-weight: var(--Bolder-font-weight);
+    font-weight: var(--bolder-font-weight);
     padding:  8px 30px;
     border-radius:5px;
 }
@@ -113,7 +114,7 @@ ul{
 .information{
     color: var(--backgound-color);
     font-size: var(--information-font-size);
-    font-weight: var(--Bolder-font-weight);
+    font-weight: var(--bolder-font-weight);
     text-align: center;
     padding: 50px;
 }
@@ -142,13 +143,39 @@ ul{
 }
 
 .three{
-    background-color: green;
+    background-color: var(--secondary-color);
+    padding: 100px 27%;
+}
+
+.quote{
+    font-size: var(--information-font-size);
+    color: var(--backgound-color);
+    font-weight: var(--thin-font-weight);
+    padding-bottom: 10px;
+}
+
+.author{
+    font-size: var(--logo-font-size);
+    color: var(--backgound-color);
+    font-weight: var(--bolder-font-weight);
+    text-align: right;
 }
 
 .four{
-    background-color: blue;
+     background-color: var(--logo-font-color);
+}
+
+.action{
+    background-color: var(--accent-color);
+    height: 150px;
+    margin: 100px 16.5%;
 }
 
 footer{
     background-color: var(--backgound-color);
+    color: var(--secondary-color);
+    font-size: var(--text-font-size);
+    text-align: center;
+    padding: 20px 0px;
+    font-family: var(--font-family);
 }
