@@ -169,6 +169,36 @@ ul{
     background-color: var(--accent-color);
     height: 150px;
     margin: 100px 16.5%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.action_text{
+    position:absolute;
+    left:27%;
+}
+
+.action_text h3{
+    color: var(--logo-font-color);
+    font-size: var(--logo-font-size);
+}
+
+.action p {
+    color: var(--logo-font-color);
+    font-size: var(--secondary-color);
+   
+}
+
+.action_btn{
+    position: absolute;
+    right:30%;
+    color: var(--logo-font-color);
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid var(--logo-font-color);
+    border-radius: 10px ;
 }
 
 footer{
